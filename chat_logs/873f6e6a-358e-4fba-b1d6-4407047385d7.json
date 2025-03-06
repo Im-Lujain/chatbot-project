@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "tell me about apple revenue in December 30,\n2023"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm sorry, but I don't have data about Apple’s revenue for December 30, 2023, as my knowledge only extends up until October 2021, and I cannot access real-time information or forecasts. To get the most current financial data about Apple, I recommend checking their official website or reputable financial news sources for the latest earnings reports and updates."
+    }
+]
