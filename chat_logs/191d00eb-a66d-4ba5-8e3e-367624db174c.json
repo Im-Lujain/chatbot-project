@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "tell me about apple revenue in September 2024"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm sorry, but I don't have access to real-time data or future information, including Apple's revenue for September 2024. For the latest financial information, I recommend checking Apple's official financial reports or reliable financial news sources."
+    }
+]
