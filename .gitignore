@@ -3,15 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
-# Secrets
-
-chroma_db/
-pdf_store/
-chat_logs/
+# My secrects
 .env
-terraform/.terraform
-terraform/ssh-keys
-
+chat_logs
+pdf_store
+chroma.log
+chroma_db
 # User-specific files
 *.rsuser
 *.suo
