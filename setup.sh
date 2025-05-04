@@ -76,7 +76,7 @@ After=network.target
 Type=simple
 User=$USER
 WorkingDirectory=$HOME_DIR/$REPO_NAME
-ExecStart=$HOME_DIR/miniconda3/envs/project/bin/chroma run --path $HOME_DIR/$REPO_NAME/chroma_db
+ExecStart=$HOME_DIR/miniconda3/envs/project/bin/chroma run --path $HOME_DIR/$REPO_NAME/chroma_db --host 0.0.0.0
 Restart=always
 
 [Install]
@@ -118,7 +118,7 @@ EOF
 # Reload systemd and start services
 echo "Reloading systemd and starting services..."
 sudo systemctl daemon-reload
-sudi systemctl enable chromadb
+sudo systemctl enable chromadb
 sudo systemctl start chromadb
 
 echo "Setup completed successfully"
