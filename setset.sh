@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Check if the correct number of arguments is provided
-if [ $# -ne 5 ]; then
+if [ $# -ne 3 ]; then
     echo "Usage: $0 <PAT_token> <repo_url> <branch_name>"
     exit 1
 fi
